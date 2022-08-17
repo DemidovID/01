@@ -622,7 +622,53 @@ body {
 .info::before {
 	content: '';
 	position: absolute;
+	background-color: #262c27;
 	height: 180px;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
 
+.info__top {
+	margin-left: 110px;
+	display: flex;
+	gap: 80px;
+}
+
+.info__top-text {
+	position: relative;
+	top: 250px;
+
+	padding-top: 250px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
+	max-width: 325px;
+	max-height: 352px;
+}
+
+.play-video-btn {
+	grid-row-gap: 10px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 90px;
+}
+
+.info__play-video-btn {
+	position: relative;
+	left: 215px;
+	top: 50px;
+	top: 85px;
+}
+
+.info__surf {
+	position: relative;
+	top: 315px;
+}
 /* info end */
